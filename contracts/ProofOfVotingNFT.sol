@@ -3,6 +3,7 @@ pragma experimental ABIEncoderV2;
 
 import { ERC721Full } from "@openzeppelin/contracts/token/ERC721/ERC721Full.sol";
 import { Counters } from "@openzeppelin/contracts/drafts/Counters.sol";
+import { owner } from "@openzeppelin/contracts/owner.sol";
 
 /**
  * @notice - This is the smart contract of NFT that represents a proof of voting
